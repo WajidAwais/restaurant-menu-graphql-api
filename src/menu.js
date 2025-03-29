@@ -8,7 +8,6 @@ export const menu = {
       },
       {
         name: "Sautéed Shredded Brussels Sprouts",
-        category: "appetizer",
         ingredients: "bacon hazelnuts gorgonzola",
         price: 6.95,
       },

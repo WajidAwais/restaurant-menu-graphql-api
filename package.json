@@ -5,11 +5,16 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --config=jest.config.mjs"
   },
   "dependencies": {
     "@apollo/server": "^4.11.3",
     "express": "^4.21.2",
     "graphql": "^16.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
   }
 }
